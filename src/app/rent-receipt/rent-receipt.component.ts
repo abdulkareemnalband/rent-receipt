@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 
+import { data } from '../data';
+
 @Component({
   selector: 'app-rent-receipt',
   templateUrl: './rent-receipt.component.html',
@@ -11,9 +13,7 @@ export class RentReceiptComponent {
 
   public readonly months = getDates();
 
-  name = 'AbdulKareem Saleem Nalband';
-  address = '#77 , 1st cross , Reliable Residency Phase 3, Haraluru , Benguluru 560102 , KAR,IND';
-  landlord = "Imtiyaz Ron";
+  public readonly data = data;
 }
 
 function getDates() {

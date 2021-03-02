@@ -11,14 +11,14 @@
     </div>
   </div>
   <div class="r-message mt-2">
-    Received sum of INR <b>Rs. 8,000</b> from <b>{{name}}</b> towards rent of property located at <b>{{address}}</b>
+    Received sum of INR <b>Rs. 8,000</b> from <b>{{data.fullName}}</b> towards rent of property located at <b>{{data.address}}</b>
     for the period from <b>{{d[0]|date:'dd'}} {{d[0] |date:'LLL'}} {{d[0] |date:'yyyy'}}</b>
     to <b>{{d[1]|date:'dd'}} {{d[1] |date:'LLL'}} {{d[1] |date:'yyyy'}}</b>
   </div>
   <div class="r-sign mt-12">
     <div class="relative">
       <img class="absolute h-auto block w-auto  sign" src="/assets/sign.png">
-      <span><b>{{landlord}} (Landlord)</b></span>
+      <span><b>{{data.landlord}} (Landlord)</b></span>
     </div>
   </div>
 </div>
