@@ -1,7 +1,6 @@
 
 
 :host {
-  margin: 20px;
-  display: block;
+  @apply block m-5;
 }
 
