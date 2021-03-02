@@ -1,0 +1,26 @@
+.main-grid {
+  display: grid;
+  grid-template-areas:
+    "r-title . r-date"
+    "r-message r-message r-message"
+    "r-sign . . ";
+  page-break-inside: avoid;
+}
+
+.r-title {
+  grid-area: r-title;
+}
+.r-date {
+  grid-area: r-date;
+}
+.r-message {
+  grid-area: r-message;
+}
+.r-sign {
+  grid-area: r-sign;
+}
+
+.sign {
+  max-width: 12rem;
+  bottom: -20px;
+}
