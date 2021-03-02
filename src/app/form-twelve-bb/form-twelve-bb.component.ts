@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 
+import { data } from '../data';
+
 @Component({
   selector: 'app-form-twelve-bb',
   templateUrl: './form-twelve-bb.component.html',
@@ -7,6 +9,6 @@ import { Component } from '@angular/core';
 })
 export class FormTwelveBbComponent {
 
-
+  public readonly data = data;
 
 }

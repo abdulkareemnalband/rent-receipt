@@ -17,7 +17,7 @@ export class RentReceiptComponent {
 }
 
 function getDates() {
-  return months.map(m => [new Date(m.y + 2019, m.m - 1, 30), new Date(m.y + 2019, m.m, 29)] as [Date, Date]);
+  return months.map(m => [new Date(m.y + 2019, m.m - 1, 30), new Date(m.y + 2020, m.m, 29)] as [Date, Date]);
 }
 
 const months = [

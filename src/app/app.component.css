@@ -1,6 +1,7 @@
-@media print {
-  .no-print {
-    display: none;
-    visibility: hidden;
-  }
+
+
+:host {
+  margin: 20px;
+  display: block;
 }
+
