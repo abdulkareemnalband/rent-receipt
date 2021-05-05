@@ -11,4 +11,8 @@ export class FormTwelveBbComponent {
 
   public readonly data = data;
 
+  constructor() {
+    document.title = "Form12bb";
+  }
+
 }

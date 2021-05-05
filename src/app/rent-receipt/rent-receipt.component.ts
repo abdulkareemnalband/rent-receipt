@@ -14,6 +14,9 @@ export class RentReceiptComponent {
   public readonly months = getDates();
 
   public readonly data = data;
+  constructor() {
+    document.title = "rent_receipt";
+  }
 }
 
 function getDates() {
